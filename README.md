@@ -15,8 +15,8 @@ O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma c
 
 Etapa 1: 
 - [Nome da ferramenta]: EC2 - Elastic Compute Cloud
-- [Foco da ferramenta]: Substituir os servidores físicos da empresa, bem como toda a infraestrutura que comporta o pleno funcionamento dos sitemas utilizados atualmente pela Farmacêutica Abstergo Industries.
-- [Descrição de caso de uso]: Num promeiro momento, migrar a aplicação e banco de dados para instãncias EC2, devidamente dimensionadas conforme complexidade da aplicação.
+- [Foco da ferramenta]: Substituir os servidores físicos da empresa, bem como toda a infraestrutura que comporta o pleno funcionamento dos sistemas utilizados atualmente pela Farmacêutica Abstergo Industries.
+- [Descrição de caso de uso]: Num primeiro momento, migrar a aplicação e banco de dados para instãncias EC2, devidamente dimensionadas conforme complexidade da aplicação.
 
 Etapa 2: 
 - [Nome da ferramenta]: Amazon EC2 AutoScaling
@@ -27,8 +27,6 @@ Etapa 3:
 - [Nome da ferramenta]: ELB - Elastic Load Balancing 
 - [Foco da ferramenta]: Em conjunto com o AutoScaling, um balanceamento de carga automático para garantir a alta disponibilidade da aplicação.
 - [Descrição de caso de uso]: Em momentos de pico da semana, com muita procura pelos parceiros revendedores e com AutoScaling implementado, nosso sistema em nuvem terá o balanceamento de carga, distribuindo de maneira inteligente a demanda de consumo dos recursos computacionais entre as instãncias provisionadas no momento, promovendo uma aplicação altamente disponível, garantindo a satisfação do cliente mais exigente.
-
-
 
 ## Conclusão
 A implementação de ferramentas na empresa Abstergo Industries tem como esperado alta disponibilidade de recursos necessários nos momentos mais críticos (de maior procura e acesso), para uma transação fluída e de ótima experiência, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
